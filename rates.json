@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "currency": "SGD",
   "about": "Figures are rough estimates, from public guides and common practice in Singapore. There is no fixed rule: give what feels right for you.",
   "occasions": [
@@ -1115,6 +1115,70 @@
           }
         ]
       }
+    },
+    {
+      "kind": "malay_wedding",
+      "title": "Malay wedding",
+      "note": "Money goes in an envelope, often handed over with the salam. Amounts are modest; there is no seat cost to cover at most kenduri.",
+      "groups": [
+        {
+          "label": "From",
+          "rows": [
+            {
+              "who": "Colleague or acquaintance",
+              "min": 10,
+              "max": 30
+            },
+            {
+              "who": "Friend or neighbour",
+              "min": 20,
+              "max": 50
+            },
+            {
+              "who": "Close friend",
+              "min": 50,
+              "max": 100
+            },
+            {
+              "who": "Relative or family",
+              "min": 50,
+              "max": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "indian_wedding",
+      "title": "Indian wedding",
+      "note": "Amounts usually end in 1 (such as 51 or 101), so the gift does not end at an even number. For a hotel dinner, people often cover their seat as well.",
+      "groups": [
+        {
+          "label": "From",
+          "rows": [
+            {
+              "who": "Colleague or acquaintance",
+              "min": 21,
+              "max": 51
+            },
+            {
+              "who": "Friend",
+              "min": 51,
+              "max": 101
+            },
+            {
+              "who": "Close friend",
+              "min": 101,
+              "max": 201
+            },
+            {
+              "who": "Relative or family",
+              "min": 151,
+              "max": 501
+            }
+          ]
+        }
+      ]
     },
     {
       "kind": "cny",
