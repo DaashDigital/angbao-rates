@@ -6,9 +6,9 @@ The app ships with a copy of `rates.json`. Its "Refresh rates" button downloads 
 
 ## Changing the rates
 
-Edit `rates.json` and bump `updated` (YYYY-MM-DD). The app only takes a file that has `version`, `updated` and `occasions`.
+Edit `rates.json` and bump `updated` (YYYY-MM-DD). The app only takes a file with `version` 2, a newer `updated` date and readable `occasions`.
 
 - `occasions[].groups[].rows`: who, with a `min` and `max` in SGD.
-- Weddings use `venue` instead: each venue has a price `level`; each level has a range per time (`slots`); `relations` multiply that range for colleagues, friends, close friends and family. Results are rounded to amounts people like to give (such as 188 or 288).
+- Weddings use `venue` instead. Each venue has its seat cost per guest for each time (`seat`, from public guides). Every relationship starts at the seat cost; `relations` only raise the top of the range (top x `times` + `add`), for friends, close friends and family. Both ends round up to amounts people like to give (such as 188 or 288).
 
 Figures are rough estimates, from public guides and common practice in Singapore.

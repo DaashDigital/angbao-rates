@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updated": "2026-11-04",
+  "version": 2,
+  "updated": "2026-11-05",
   "currency": "SGD",
   "about": "Figures are rough estimates, from public guides and common practice in Singapore. There is no fixed rule: give what feels right for you.",
   "occasions": [
@@ -27,235 +27,1092 @@
             "Weekend dinner"
           ]
         ],
-        "levels": {
-          "luxury": {
-            "name": "Luxury hotel",
-            "slots": {
-              "weekday_lunch": [
-                238,
-                288
-              ],
-              "weekday_dinner": [
-                268,
-                328
-              ],
-              "weekend_lunch": [
-                268,
-                318
-              ],
-              "weekend_dinner": [
-                300,
-                388
-              ]
-            }
-          },
-          "upscale": {
-            "name": "Hotel",
-            "slots": {
-              "weekday_lunch": [
-                188,
-                238
-              ],
-              "weekday_dinner": [
-                200,
-                250
-              ],
-              "weekend_lunch": [
-                200,
-                250
-              ],
-              "weekend_dinner": [
-                238,
-                288
-              ]
-            }
-          },
-          "mid": {
-            "name": "Mid-range hotel",
-            "slots": {
-              "weekday_lunch": [
-                150,
-                188
-              ],
-              "weekday_dinner": [
-                168,
-                200
-              ],
-              "weekend_lunch": [
-                168,
-                208
-              ],
-              "weekend_dinner": [
-                188,
-                238
-              ]
-            }
-          },
-          "restaurant": {
-            "name": "Restaurant",
-            "slots": {
-              "weekday_lunch": [
-                100,
-                128
-              ],
-              "weekday_dinner": [
-                120,
-                150
-              ],
-              "weekend_lunch": [
-                120,
-                150
-              ],
-              "weekend_dinner": [
-                128,
-                168
-              ]
-            }
-          }
-        },
+        "groups": [
+          "Luxury hotels",
+          "Hotels",
+          "Mid-range hotels",
+          "Restaurants and other venues",
+          "Not listed"
+        ],
         "venues": [
           {
             "name": "Capella Singapore",
-            "level": "luxury"
-          },
-          {
-            "name": "Four Seasons Hotel Singapore",
-            "level": "luxury"
-          },
-          {
-            "name": "Marina Bay Sands",
-            "level": "luxury"
-          },
-          {
-            "name": "Mandarin Oriental Singapore",
-            "level": "luxury"
+            "group": "Luxury hotels",
+            "seat": {
+              "weekday_lunch": [
+                350,
+                430
+              ],
+              "weekday_dinner": [
+                360,
+                430
+              ],
+              "weekend_lunch": [
+                350,
+                430
+              ],
+              "weekend_dinner": [
+                360,
+                430
+              ]
+            }
           },
           {
             "name": "Raffles Hotel Singapore",
-            "level": "luxury"
+            "group": "Luxury hotels",
+            "seat": {
+              "weekday_lunch": [
+                310,
+                340
+              ],
+              "weekday_dinner": [
+                310,
+                370
+              ],
+              "weekend_lunch": [
+                310,
+                350
+              ],
+              "weekend_dinner": [
+                340,
+                400
+              ]
+            }
           },
           {
-            "name": "Shangri-La Singapore",
-            "level": "luxury"
-          },
-          {
-            "name": "The Fullerton Bay Hotel",
-            "level": "luxury"
-          },
-          {
-            "name": "The Ritz-Carlton, Millenia",
-            "level": "luxury"
+            "name": "The Fullerton Bay Hotel (Clifford Pier)",
+            "group": "Luxury hotels",
+            "seat": {
+              "weekday_lunch": [
+                370,
+                400
+              ],
+              "weekday_dinner": [
+                370,
+                400
+              ],
+              "weekend_lunch": [
+                370,
+                400
+              ],
+              "weekend_dinner": [
+                370,
+                400
+              ]
+            }
           },
           {
             "name": "The St. Regis Singapore",
-            "level": "luxury"
+            "group": "Luxury hotels",
+            "seat": {
+              "weekday_lunch": [
+                320,
+                350
+              ],
+              "weekday_dinner": [
+                330,
+                360
+              ],
+              "weekend_lunch": [
+                330,
+                360
+              ],
+              "weekend_dinner": [
+                350,
+                380
+              ]
+            }
           },
           {
-            "name": "Andaz Singapore",
-            "level": "upscale"
+            "name": "Marina Bay Sands",
+            "group": "Luxury hotels",
+            "seat": {
+              "weekday_lunch": [
+                290,
+                290
+              ],
+              "weekday_dinner": [
+                350,
+                350
+              ],
+              "weekend_lunch": [
+                290,
+                290
+              ],
+              "weekend_dinner": [
+                350,
+                350
+              ]
+            }
           },
           {
-            "name": "Conrad Singapore Orchard",
-            "level": "upscale"
-          },
-          {
-            "name": "Fairmont Singapore",
-            "level": "upscale"
-          },
-          {
-            "name": "Grand Hyatt Singapore",
-            "level": "upscale"
-          },
-          {
-            "name": "Hilton Singapore Orchard",
-            "level": "upscale"
-          },
-          {
-            "name": "InterContinental Singapore",
-            "level": "upscale"
+            "name": "The Capitol Kempinski Hotel",
+            "group": "Luxury hotels",
+            "seat": {
+              "weekday_lunch": [
+                280,
+                400
+              ],
+              "weekday_dinner": [
+                320,
+                400
+              ],
+              "weekend_lunch": [
+                280,
+                400
+              ],
+              "weekend_dinner": [
+                320,
+                400
+              ]
+            }
           },
           {
             "name": "JW Marriott Singapore South Beach",
-            "level": "upscale"
+            "group": "Luxury hotels",
+            "seat": {
+              "weekday_lunch": [
+                290,
+                310
+              ],
+              "weekday_dinner": [
+                300,
+                340
+              ],
+              "weekend_lunch": [
+                290,
+                310
+              ],
+              "weekend_dinner": [
+                300,
+                340
+              ]
+            }
           },
           {
-            "name": "PARKROYAL COLLECTION Pickering",
-            "level": "upscale"
+            "name": "The Ritz-Carlton, Millenia",
+            "group": "Luxury hotels",
+            "seat": {
+              "weekday_lunch": [
+                250,
+                280
+              ],
+              "weekday_dinner": [
+                290,
+                360
+              ],
+              "weekend_lunch": [
+                250,
+                280
+              ],
+              "weekend_dinner": [
+                290,
+                360
+              ]
+            }
           },
           {
-            "name": "Pan Pacific Orchard",
-            "level": "upscale"
+            "name": "Shangri-La Singapore",
+            "group": "Luxury hotels",
+            "seat": {
+              "weekday_lunch": [
+                240,
+                270
+              ],
+              "weekday_dinner": [
+                250,
+                320
+              ],
+              "weekend_lunch": [
+                250,
+                320
+              ],
+              "weekend_dinner": [
+                270,
+                330
+              ]
+            }
           },
           {
-            "name": "Sheraton Towers Singapore",
-            "level": "upscale"
-          },
-          {
-            "name": "Singapore Marriott Tang Plaza",
-            "level": "upscale"
-          },
-          {
-            "name": "Swissôtel The Stamford",
-            "level": "upscale"
+            "name": "Mandarin Oriental Singapore",
+            "group": "Luxury hotels",
+            "seat": {
+              "weekday_lunch": [
+                260,
+                260
+              ],
+              "weekday_dinner": [
+                270,
+                290
+              ],
+              "weekend_lunch": [
+                270,
+                290
+              ],
+              "weekend_dinner": [
+                280,
+                300
+              ]
+            }
           },
           {
             "name": "The Fullerton Hotel",
-            "level": "upscale"
+            "group": "Luxury hotels",
+            "seat": {
+              "weekday_lunch": [
+                280,
+                280
+              ],
+              "weekday_dinner": [
+                280,
+                290
+              ],
+              "weekend_lunch": [
+                280,
+                290
+              ],
+              "weekend_dinner": [
+                290,
+                300
+              ]
+            }
           },
           {
-            "name": "Furama RiverFront",
-            "level": "mid"
+            "name": "Andaz Singapore",
+            "group": "Hotels",
+            "seat": {
+              "weekday_lunch": [
+                270,
+                270
+              ],
+              "weekday_dinner": [
+                290,
+                290
+              ],
+              "weekend_lunch": [
+                270,
+                270
+              ],
+              "weekend_dinner": [
+                290,
+                290
+              ]
+            }
           },
           {
-            "name": "Grand Copthorne Waterfront",
-            "level": "mid"
+            "name": "Pan Pacific Orchard",
+            "group": "Hotels",
+            "seat": {
+              "weekday_lunch": [
+                230,
+                360
+              ],
+              "weekday_dinner": [
+                230,
+                360
+              ],
+              "weekend_lunch": [
+                240,
+                360
+              ],
+              "weekend_dinner": [
+                260,
+                360
+              ]
+            }
           },
           {
-            "name": "Holiday Inn Singapore Atrium",
-            "level": "mid"
+            "name": "Grand Hyatt Singapore",
+            "group": "Hotels",
+            "seat": {
+              "weekday_lunch": [
+                230,
+                280
+              ],
+              "weekday_dinner": [
+                230,
+                300
+              ],
+              "weekend_lunch": [
+                240,
+                280
+              ],
+              "weekend_dinner": [
+                280,
+                300
+              ]
+            }
           },
           {
-            "name": "M Hotel Singapore",
-            "level": "mid"
+            "name": "W Singapore",
+            "group": "Hotels",
+            "seat": {
+              "weekday_lunch": [
+                240,
+                280
+              ],
+              "weekday_dinner": [
+                270,
+                280
+              ],
+              "weekend_lunch": [
+                240,
+                280
+              ],
+              "weekend_dinner": [
+                270,
+                300
+              ]
+            }
+          },
+          {
+            "name": "Amara Sanctuary Sentosa",
+            "group": "Hotels",
+            "seat": {
+              "weekday_lunch": [
+                220,
+                220
+              ],
+              "weekday_dinner": [
+                220,
+                220
+              ],
+              "weekend_lunch": [
+                230,
+                230
+              ],
+              "weekend_dinner": [
+                270,
+                280
+              ]
+            }
+          },
+          {
+            "name": "Sheraton Towers Singapore",
+            "group": "Hotels",
+            "seat": {
+              "weekday_lunch": [
+                220,
+                220
+              ],
+              "weekday_dinner": [
+                220,
+                250
+              ],
+              "weekend_lunch": [
+                220,
+                220
+              ],
+              "weekend_dinner": [
+                250,
+                250
+              ]
+            }
+          },
+          {
+            "name": "Goodwood Park Hotel",
+            "group": "Hotels",
+            "seat": {
+              "weekday_lunch": [
+                220,
+                220
+              ],
+              "weekday_dinner": [
+                230,
+                230
+              ],
+              "weekend_lunch": [
+                230,
+                230
+              ],
+              "weekend_dinner": [
+                240,
+                240
+              ]
+            }
           },
           {
             "name": "Orchard Hotel Singapore",
-            "level": "mid"
+            "group": "Hotels",
+            "seat": {
+              "weekday_lunch": [
+                180,
+                180
+              ],
+              "weekday_dinner": [
+                220,
+                220
+              ],
+              "weekend_lunch": [
+                200,
+                200
+              ],
+              "weekend_dinner": [
+                230,
+                280
+              ]
+            }
+          },
+          {
+            "name": "Carlton Hotel Singapore",
+            "group": "Hotels",
+            "seat": {
+              "weekday_lunch": [
+                170,
+                240
+              ],
+              "weekday_dinner": [
+                200,
+                240
+              ],
+              "weekend_lunch": [
+                180,
+                240
+              ],
+              "weekend_dinner": [
+                210,
+                240
+              ]
+            }
+          },
+          {
+            "name": "Paradox Singapore",
+            "group": "Mid-range hotels",
+            "seat": {
+              "weekday_lunch": [
+                170,
+                230
+              ],
+              "weekday_dinner": [
+                170,
+                260
+              ],
+              "weekend_lunch": [
+                170,
+                230
+              ],
+              "weekend_dinner": [
+                200,
+                260
+              ]
+            }
+          },
+          {
+            "name": "Grand Copthorne Waterfront",
+            "group": "Mid-range hotels",
+            "seat": {
+              "weekday_lunch": [
+                170,
+                190
+              ],
+              "weekday_dinner": [
+                170,
+                190
+              ],
+              "weekend_lunch": [
+                170,
+                190
+              ],
+              "weekend_dinner": [
+                200,
+                230
+              ]
+            }
+          },
+          {
+            "name": "PARKROYAL on Beach Road",
+            "group": "Mid-range hotels",
+            "seat": {
+              "weekday_lunch": [
+                180,
+                180
+              ],
+              "weekday_dinner": [
+                180,
+                180
+              ],
+              "weekend_lunch": [
+                210,
+                210
+              ],
+              "weekend_dinner": [
+                200,
+                240
+              ]
+            }
+          },
+          {
+            "name": "Grand Park City Hall",
+            "group": "Mid-range hotels",
+            "seat": {
+              "weekday_lunch": [
+                190,
+                220
+              ],
+              "weekday_dinner": [
+                190,
+                220
+              ],
+              "weekend_lunch": [
+                190,
+                220
+              ],
+              "weekend_dinner": [
+                190,
+                220
+              ]
+            }
+          },
+          {
+            "name": "Hotel Fort Canning",
+            "group": "Mid-range hotels",
+            "seat": {
+              "weekday_lunch": [
+                180,
+                190
+              ],
+              "weekday_dinner": [
+                210,
+                220
+              ],
+              "weekend_lunch": [
+                180,
+                190
+              ],
+              "weekend_dinner": [
+                210,
+                220
+              ]
+            }
+          },
+          {
+            "name": "Oasia Hotel Downtown",
+            "group": "Mid-range hotels",
+            "seat": {
+              "weekday_lunch": [
+                190,
+                190
+              ],
+              "weekday_dinner": [
+                210,
+                210
+              ],
+              "weekend_lunch": [
+                190,
+                190
+              ],
+              "weekend_dinner": [
+                210,
+                210
+              ]
+            }
+          },
+          {
+            "name": "M Hotel Singapore City Centre",
+            "group": "Mid-range hotels",
+            "seat": {
+              "weekday_lunch": [
+                160,
+                170
+              ],
+              "weekday_dinner": [
+                170,
+                180
+              ],
+              "weekend_lunch": [
+                170,
+                200
+              ],
+              "weekend_dinner": [
+                180,
+                210
+              ]
+            }
+          },
+          {
+            "name": "Amara Singapore",
+            "group": "Mid-range hotels",
+            "seat": {
+              "weekday_lunch": [
+                170,
+                180
+              ],
+              "weekday_dinner": [
+                180,
+                180
+              ],
+              "weekend_lunch": [
+                170,
+                180
+              ],
+              "weekend_dinner": [
+                180,
+                200
+              ]
+            }
+          },
+          {
+            "name": "Village Hotel Changi or Katong",
+            "group": "Mid-range hotels",
+            "seat": {
+              "weekday_lunch": [
+                180,
+                180
+              ],
+              "weekday_dinner": [
+                190,
+                190
+              ],
+              "weekend_lunch": [
+                180,
+                180
+              ],
+              "weekend_dinner": [
+                190,
+                190
+              ]
+            }
+          },
+          {
+            "name": "Holiday Inn Singapore Orchard City Centre",
+            "group": "Mid-range hotels",
+            "seat": {
+              "weekday_lunch": [
+                170,
+                170
+              ],
+              "weekday_dinner": [
+                170,
+                170
+              ],
+              "weekend_lunch": [
+                170,
+                170
+              ],
+              "weekend_dinner": [
+                170,
+                200
+              ]
+            }
+          },
+          {
+            "name": "Mercure Singapore Bugis",
+            "group": "Mid-range hotels",
+            "seat": {
+              "weekday_lunch": [
+                150,
+                220
+              ],
+              "weekday_dinner": [
+                150,
+                230
+              ],
+              "weekend_lunch": [
+                160,
+                220
+              ],
+              "weekend_dinner": [
+                160,
+                230
+              ]
+            }
+          },
+          {
+            "name": "Aloft Singapore Novena",
+            "group": "Mid-range hotels",
+            "seat": {
+              "weekday_lunch": [
+                150,
+                150
+              ],
+              "weekday_dinner": [
+                150,
+                150
+              ],
+              "weekend_lunch": [
+                170,
+                170
+              ],
+              "weekend_dinner": [
+                200,
+                200
+              ]
+            }
+          },
+          {
+            "name": "Furama City Centre",
+            "group": "Mid-range hotels",
+            "seat": {
+              "weekday_lunch": [
+                170,
+                170
+              ],
+              "weekday_dinner": [
+                170,
+                180
+              ],
+              "weekend_lunch": [
+                170,
+                180
+              ],
+              "weekend_dinner": [
+                170,
+                180
+              ]
+            }
+          },
+          {
+            "name": "Holiday Inn Singapore Atrium",
+            "group": "Mid-range hotels",
+            "seat": {
+              "weekday_lunch": [
+                150,
+                150
+              ],
+              "weekday_dinner": [
+                150,
+                150
+              ],
+              "weekend_lunch": [
+                150,
+                150
+              ],
+              "weekend_dinner": [
+                170,
+                170
+              ]
+            }
+          },
+          {
+            "name": "Furama RiverFront",
+            "group": "Mid-range hotels",
+            "seat": {
+              "weekday_lunch": [
+                140,
+                160
+              ],
+              "weekday_dinner": [
+                160,
+                170
+              ],
+              "weekend_lunch": [
+                140,
+                160
+              ],
+              "weekend_dinner": [
+                160,
+                170
+              ]
+            }
+          },
+          {
+            "name": "The Royal Albatross",
+            "group": "Restaurants and other venues",
+            "seat": {
+              "weekday_lunch": [
+                370,
+                410
+              ],
+              "weekday_dinner": [
+                370,
+                410
+              ],
+              "weekend_lunch": [
+                370,
+                410
+              ],
+              "weekend_dinner": [
+                370,
+                410
+              ]
+            }
+          },
+          {
+            "name": "Jewel Changi Airport",
+            "group": "Restaurants and other venues",
+            "seat": {
+              "weekday_lunch": [
+                270,
+                300
+              ],
+              "weekday_dinner": [
+                270,
+                300
+              ],
+              "weekend_lunch": [
+                270,
+                300
+              ],
+              "weekend_dinner": [
+                270,
+                300
+              ]
+            }
+          },
+          {
+            "name": "Flutes at National Museum",
+            "group": "Restaurants and other venues",
+            "seat": {
+              "weekday_lunch": [
+                220,
+                250
+              ],
+              "weekday_dinner": [
+                270,
+                290
+              ],
+              "weekend_lunch": [
+                220,
+                250
+              ],
+              "weekend_dinner": [
+                270,
+                290
+              ]
+            }
+          },
+          {
+            "name": "CHIJMES",
+            "group": "Restaurants and other venues",
+            "seat": {
+              "weekday_lunch": [
+                200,
+                210
+              ],
+              "weekday_dinner": [
+                210,
+                230
+              ],
+              "weekend_lunch": [
+                210,
+                240
+              ],
+              "weekend_dinner": [
+                220,
+                270
+              ]
+            }
+          },
+          {
+            "name": "Red House Seafood",
+            "group": "Restaurants and other venues",
+            "seat": {
+              "weekday_lunch": [
+                210,
+                280
+              ],
+              "weekday_dinner": [
+                210,
+                280
+              ],
+              "weekend_lunch": [
+                210,
+                280
+              ],
+              "weekend_dinner": [
+                210,
+                280
+              ]
+            }
+          },
+          {
+            "name": "Orchid Country Club",
+            "group": "Restaurants and other venues",
+            "seat": {
+              "weekday_lunch": [
+                150,
+                180
+              ],
+              "weekday_dinner": [
+                160,
+                180
+              ],
+              "weekend_lunch": [
+                160,
+                180
+              ],
+              "weekend_dinner": [
+                170,
+                180
+              ]
+            }
+          },
+          {
+            "name": "Tung Lok Seafood",
+            "group": "Restaurants and other venues",
+            "seat": {
+              "weekday_lunch": [
+                90,
+                170
+              ],
+              "weekday_dinner": [
+                90,
+                170
+              ],
+              "weekend_lunch": [
+                90,
+                170
+              ],
+              "weekend_dinner": [
+                90,
+                170
+              ]
+            }
+          },
+          {
+            "name": "Ah Yat Seafood Restaurant",
+            "group": "Restaurants and other venues",
+            "seat": {
+              "weekday_lunch": [
+                80,
+                130
+              ],
+              "weekday_dinner": [
+                80,
+                130
+              ],
+              "weekend_lunch": [
+                80,
+                130
+              ],
+              "weekend_dinner": [
+                80,
+                130
+              ]
+            }
+          },
+          {
+            "name": "Community club or clubhouse",
+            "group": "Restaurants and other venues",
+            "seat": {
+              "weekday_lunch": [
+                130,
+                150
+              ],
+              "weekday_dinner": [
+                130,
+                150
+              ],
+              "weekend_lunch": [
+                130,
+                150
+              ],
+              "weekend_dinner": [
+                130,
+                150
+              ]
+            }
+          },
+          {
+            "name": "Void deck (Malay or Indian wedding)",
+            "group": "Restaurants and other venues",
+            "seat": {
+              "weekday_lunch": [
+                80,
+                100
+              ],
+              "weekday_dinner": [
+                80,
+                100
+              ],
+              "weekend_lunch": [
+                80,
+                100
+              ],
+              "weekend_dinner": [
+                80,
+                100
+              ]
+            }
           },
           {
             "name": "Other luxury hotel",
-            "level": "luxury"
+            "group": "Not listed",
+            "seat": {
+              "weekday_lunch": [
+                280,
+                350
+              ],
+              "weekday_dinner": [
+                300,
+                380
+              ],
+              "weekend_lunch": [
+                280,
+                350
+              ],
+              "weekend_dinner": [
+                300,
+                380
+              ]
+            }
           },
           {
             "name": "Other hotel",
-            "level": "upscale"
+            "group": "Not listed",
+            "seat": {
+              "weekday_lunch": [
+                160,
+                240
+              ],
+              "weekday_dinner": [
+                180,
+                300
+              ],
+              "weekend_lunch": [
+                180,
+                260
+              ],
+              "weekend_dinner": [
+                200,
+                300
+              ]
+            }
           },
           {
-            "name": "Other mid-range hotel",
-            "level": "mid"
-          },
-          {
-            "name": "Restaurant",
-            "level": "restaurant"
+            "name": "Other restaurant",
+            "group": "Not listed",
+            "seat": {
+              "weekday_lunch": [
+                120,
+                180
+              ],
+              "weekday_dinner": [
+                120,
+                180
+              ],
+              "weekend_lunch": [
+                120,
+                180
+              ],
+              "weekend_dinner": [
+                120,
+                180
+              ]
+            }
           }
         ],
         "relations": [
-          [
-            "Colleague or acquaintance",
-            0.9
-          ],
-          [
-            "Friend",
-            1.0
-          ],
-          [
-            "Close friend",
-            1.15
-          ],
-          [
-            "Relative or family",
-            1.3
-          ]
+          {
+            "who": "Colleague or acquaintance",
+            "add": 0,
+            "times": 1
+          },
+          {
+            "who": "Friend",
+            "add": 0,
+            "times": 1.2
+          },
+          {
+            "who": "Close friend",
+            "add": 100,
+            "times": 1
+          },
+          {
+            "who": "Relative or family",
+            "add": 200,
+            "times": 1
+          }
         ]
       }
     },
