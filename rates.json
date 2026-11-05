@@ -1,0 +1,499 @@
+{
+  "version": 1,
+  "updated": "2026-11-04",
+  "currency": "SGD",
+  "about": "Figures are rough estimates, from public guides and common practice in Singapore. There is no fixed rule: give what feels right for you.",
+  "occasions": [
+    {
+      "kind": "wedding",
+      "title": "Wedding",
+      "note": "Most people aim to at least cover their seat, so the venue and time matter. Amounts usually end in 8 or are even.",
+      "venue": {
+        "slots": [
+          [
+            "weekday_lunch",
+            "Weekday lunch"
+          ],
+          [
+            "weekday_dinner",
+            "Weekday dinner"
+          ],
+          [
+            "weekend_lunch",
+            "Weekend lunch"
+          ],
+          [
+            "weekend_dinner",
+            "Weekend dinner"
+          ]
+        ],
+        "levels": {
+          "luxury": {
+            "name": "Luxury hotel",
+            "slots": {
+              "weekday_lunch": [
+                238,
+                288
+              ],
+              "weekday_dinner": [
+                268,
+                328
+              ],
+              "weekend_lunch": [
+                268,
+                318
+              ],
+              "weekend_dinner": [
+                300,
+                388
+              ]
+            }
+          },
+          "upscale": {
+            "name": "Hotel",
+            "slots": {
+              "weekday_lunch": [
+                188,
+                238
+              ],
+              "weekday_dinner": [
+                200,
+                250
+              ],
+              "weekend_lunch": [
+                200,
+                250
+              ],
+              "weekend_dinner": [
+                238,
+                288
+              ]
+            }
+          },
+          "mid": {
+            "name": "Mid-range hotel",
+            "slots": {
+              "weekday_lunch": [
+                150,
+                188
+              ],
+              "weekday_dinner": [
+                168,
+                200
+              ],
+              "weekend_lunch": [
+                168,
+                208
+              ],
+              "weekend_dinner": [
+                188,
+                238
+              ]
+            }
+          },
+          "restaurant": {
+            "name": "Restaurant",
+            "slots": {
+              "weekday_lunch": [
+                100,
+                128
+              ],
+              "weekday_dinner": [
+                120,
+                150
+              ],
+              "weekend_lunch": [
+                120,
+                150
+              ],
+              "weekend_dinner": [
+                128,
+                168
+              ]
+            }
+          }
+        },
+        "venues": [
+          {
+            "name": "Capella Singapore",
+            "level": "luxury"
+          },
+          {
+            "name": "Four Seasons Hotel Singapore",
+            "level": "luxury"
+          },
+          {
+            "name": "Marina Bay Sands",
+            "level": "luxury"
+          },
+          {
+            "name": "Mandarin Oriental Singapore",
+            "level": "luxury"
+          },
+          {
+            "name": "Raffles Hotel Singapore",
+            "level": "luxury"
+          },
+          {
+            "name": "Shangri-La Singapore",
+            "level": "luxury"
+          },
+          {
+            "name": "The Fullerton Bay Hotel",
+            "level": "luxury"
+          },
+          {
+            "name": "The Ritz-Carlton, Millenia",
+            "level": "luxury"
+          },
+          {
+            "name": "The St. Regis Singapore",
+            "level": "luxury"
+          },
+          {
+            "name": "Andaz Singapore",
+            "level": "upscale"
+          },
+          {
+            "name": "Conrad Singapore Orchard",
+            "level": "upscale"
+          },
+          {
+            "name": "Fairmont Singapore",
+            "level": "upscale"
+          },
+          {
+            "name": "Grand Hyatt Singapore",
+            "level": "upscale"
+          },
+          {
+            "name": "Hilton Singapore Orchard",
+            "level": "upscale"
+          },
+          {
+            "name": "InterContinental Singapore",
+            "level": "upscale"
+          },
+          {
+            "name": "JW Marriott Singapore South Beach",
+            "level": "upscale"
+          },
+          {
+            "name": "PARKROYAL COLLECTION Pickering",
+            "level": "upscale"
+          },
+          {
+            "name": "Pan Pacific Orchard",
+            "level": "upscale"
+          },
+          {
+            "name": "Sheraton Towers Singapore",
+            "level": "upscale"
+          },
+          {
+            "name": "Singapore Marriott Tang Plaza",
+            "level": "upscale"
+          },
+          {
+            "name": "Swissôtel The Stamford",
+            "level": "upscale"
+          },
+          {
+            "name": "The Fullerton Hotel",
+            "level": "upscale"
+          },
+          {
+            "name": "Furama RiverFront",
+            "level": "mid"
+          },
+          {
+            "name": "Grand Copthorne Waterfront",
+            "level": "mid"
+          },
+          {
+            "name": "Holiday Inn Singapore Atrium",
+            "level": "mid"
+          },
+          {
+            "name": "M Hotel Singapore",
+            "level": "mid"
+          },
+          {
+            "name": "Orchard Hotel Singapore",
+            "level": "mid"
+          },
+          {
+            "name": "Other luxury hotel",
+            "level": "luxury"
+          },
+          {
+            "name": "Other hotel",
+            "level": "upscale"
+          },
+          {
+            "name": "Other mid-range hotel",
+            "level": "mid"
+          },
+          {
+            "name": "Restaurant",
+            "level": "restaurant"
+          }
+        ],
+        "relations": [
+          [
+            "Colleague or acquaintance",
+            0.9
+          ],
+          [
+            "Friend",
+            1.0
+          ],
+          [
+            "Close friend",
+            1.15
+          ],
+          [
+            "Relative or family",
+            1.3
+          ]
+        ]
+      }
+    },
+    {
+      "kind": "cny",
+      "title": "Chinese New Year",
+      "note": "Married people give; children and unmarried relatives receive. Use even amounts.",
+      "groups": [
+        {
+          "label": "Who receives",
+          "rows": [
+            {
+              "who": "Children of friends or neighbours",
+              "min": 4,
+              "max": 10
+            },
+            {
+              "who": "Children of relatives",
+              "min": 8,
+              "max": 20
+            },
+            {
+              "who": "Nieces and nephews (close)",
+              "min": 10,
+              "max": 50
+            },
+            {
+              "who": "Unmarried adult relatives",
+              "min": 10,
+              "max": 50
+            },
+            {
+              "who": "Helpers, cleaners, security",
+              "min": 8,
+              "max": 20
+            },
+            {
+              "who": "Your own parents",
+              "min": 100,
+              "max": 500
+            },
+            {
+              "who": "Grandparents",
+              "min": 50,
+              "max": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "raya",
+      "title": "Hari Raya",
+      "note": "Duit raya is usually given by those who work, to children and those who do not. Small amounts are normal.",
+      "groups": [
+        {
+          "label": "Who receives",
+          "rows": [
+            {
+              "who": "Children visiting your home",
+              "min": 2,
+              "max": 10
+            },
+            {
+              "who": "Children of close family or friends",
+              "min": 5,
+              "max": 20
+            },
+            {
+              "who": "Young adults (studying)",
+              "min": 10,
+              "max": 50
+            },
+            {
+              "who": "Grandparents",
+              "min": 50,
+              "max": 100
+            },
+            {
+              "who": "Your own parents",
+              "min": 50,
+              "max": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "deepavali",
+      "title": "Deepavali",
+      "note": "Practice differs a lot between families. Packets for children are usually small.",
+      "groups": [
+        {
+          "label": "Who receives",
+          "rows": [
+            {
+              "who": "Children visiting your home",
+              "min": 2,
+              "max": 10
+            },
+            {
+              "who": "Children of close family",
+              "min": 5,
+              "max": 20
+            },
+            {
+              "who": "Your own parents",
+              "min": 50,
+              "max": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "full_month",
+      "title": "Full month",
+      "note": "For the baby. Even amounts. Some give a gift such as a gold bangle instead.",
+      "groups": [
+        {
+          "label": "From",
+          "rows": [
+            {
+              "who": "Friend or colleague",
+              "min": 50,
+              "max": 88
+            },
+            {
+              "who": "Close friend",
+              "min": 88,
+              "max": 128
+            },
+            {
+              "who": "Relative or family",
+              "min": 100,
+              "max": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "birthday",
+      "title": "Birthday",
+      "note": "Mostly for elders' milestone birthdays (60, 70, 80). Even amounts.",
+      "groups": [
+        {
+          "label": "From",
+          "rows": [
+            {
+              "who": "Friend or neighbour",
+              "min": 50,
+              "max": 100
+            },
+            {
+              "who": "Relative",
+              "min": 88,
+              "max": 168
+            },
+            {
+              "who": "Children and grandchildren",
+              "min": 100,
+              "max": 388
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "housewarming",
+      "title": "Housewarming",
+      "note": "Many bring a gift for the home instead. Even amounts.",
+      "groups": [
+        {
+          "label": "From",
+          "rows": [
+            {
+              "who": "Friend or colleague",
+              "min": 50,
+              "max": 88
+            },
+            {
+              "who": "Close friend or relative",
+              "min": 88,
+              "max": 168
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "opening",
+      "title": "Business opening",
+      "note": "A flower stand is common too. Even amounts.",
+      "groups": [
+        {
+          "label": "From",
+          "rows": [
+            {
+              "who": "Friend",
+              "min": 88,
+              "max": 168
+            },
+            {
+              "who": "Close friend or relative",
+              "min": 168,
+              "max": 388
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "funeral",
+      "title": "Funeral",
+      "note": "A white envelope (pek kim) to help the family. By custom the amount is odd, such as 31, 51 or 101.",
+      "groups": [
+        {
+          "label": "From",
+          "rows": [
+            {
+              "who": "Colleague or acquaintance",
+              "min": 31,
+              "max": 51
+            },
+            {
+              "who": "Friend",
+              "min": 51,
+              "max": 101
+            },
+            {
+              "who": "Close friend or relative",
+              "min": 101,
+              "max": 301
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
